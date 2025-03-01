@@ -1,16 +1,4 @@
-# XMRig for Termux
 
-This is a WIP repo for making XMRig and run on latest termux(v0.118.0) and latest clang(v17.0.5).
-
-# **`Disclaimer: I accept no warranties or liabilities on this repo. Do it at your own risk!!!`**
-
-# Installation & configuration:
-1. Download & install latest arm64-v8a [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk):
-```
-https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk
-```
-2. Installing clang and dependencies:
-- Type `y` then enter key in any prompts!
 ```
 yes | pkg update -y
 yes | pkg upgrade -y
@@ -40,10 +28,6 @@ make -j$(nproc)
 ```
 nano config.json
 ```
-- Line `80` algo = your algorithm of choice.
-- Line `82` url = your pool with port of choice.
-- Line `83` user = your address and after can include `.Difficulty`.
-- Line `84` pass = your worker name of choice.
 
 # Usage:
 1. Start ccminer with:
