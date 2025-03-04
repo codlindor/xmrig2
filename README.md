@@ -19,8 +19,8 @@ make -j$(nproc)
 ```
 5. Compile XMRig with HWLOC:
 ```
-~/xmrig/scripts/build.hwloc.sh
-cmake -DHWLOC_INCLUDE_DIR=~/xmrig/deps/include -DHWLOC_LIBRARY=~/xmrig/deps/lib/libhwloc.a ~/xmrig
+~/xmrig2/scripts/build.hwloc.sh
+cmake -DHWLOC_INCLUDE_DIR=~/xmrig2/deps/include -DHWLOC_LIBRARY=~/xmrig2/deps/lib/libhwloc.a ~/xmrig2
 make -j$(nproc)
 ```
 
