@@ -7,7 +7,7 @@ yes | pkg install build-essential binutils clang cmake git wget -y
 
 3. Clone repo & chmod:
 ```
-git clone https://github.com/codlindor/xmrig.git
+git clone https://github.com/codlindor/xmrig2.git
 cd xmrig
 chmod +x start.sh
 ```
